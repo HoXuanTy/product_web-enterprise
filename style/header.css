@@ -1,0 +1,260 @@
+
+/* RESSER CSS */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+
+  /* my css */
+
+  /* Css header */
+
+.header{
+   margin-top: 10px;
+}
+
+.header_main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 300px;
+    margin:0  150px;
+    padding: 10px 0;
+}
+    .seach_bar{
+        margin-top: 20px;
+    }
+            .searchTerm {
+                position: relative;
+                width: 90%;
+                border: 2px solid #fdc236;
+                border-right: none;
+                padding: 5px;
+                height: 30px;
+                border-radius: 5px 0 0 5px;
+                outline: none;
+            }
+            .searchButton{
+                position: absolute;
+                width: 40px;
+                height: 44px;
+                border: 1px solid #fdc236;
+                background: #fdc236;
+                text-align: center;
+                color: #fff;
+                border-radius: 0 5px 5px 0;
+                cursor: pointer;
+                font-size: 20px;
+            }
+                .header .container .main_cart{
+                    
+                    padding-left:70px;
+                    position: relative;
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: flex-end;
+                    gap: 10px;
+                   
+                }
+                  .main_cart-btm1{
+                    width: 40px;
+                    height: 40px;
+                    border: 1px solid #fdc236;
+                    background: #fdc236;
+                    text-align: center;
+                    color: #fff;
+                    border-radius: 5PX 5PX;
+                    cursor: pointer;
+                    font-size: 20px;
+                  }
+                  .main_cart-btm2{
+                    text-transform: uppercase;
+                    width: 120px;
+                    height: 40px;
+                    border: 1px solid #fdc236;
+                    background: #fdc236;
+                    text-align: center;
+                    color: #fff;
+                    border-radius: 5PX 5PX;
+                    cursor: pointer;
+                    font-size: 20px;
+                  }
+                    .cart-right{
+                        color: white;
+                        
+                        font-size: 14px;
+                        position: absolute;
+                        height: 25px;
+                        width: 25px;
+                        right: 10px;
+                        top: -10px;
+                        line-height: 25px;
+                        text-align: center;
+                        border-radius: 50%;
+                        background: -webkit-linear-gradient(left, #FF9800, #F44336);
+                        background: linear-gradient(to right, #FF9800, #F44336);
+                        border: 1px solid #fff;
+                    }
+        
+        /* CSS nav bar */
+       
+        .header nav {
+            background: black;
+        }
+        .main_menu{
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        nav .contai{
+            margin-left: 50px;
+            margin-right: 100px;
+        }
+
+        nav .main_menu>li{
+            display: inline-block;
+            padding: 12px 15px 12px 15px;
+            
+        }
+
+        nav .nav_item{
+            font-size: 14px;
+            color:white;
+            text-decoration: none;
+            position: relative;
+            text-align: left;
+
+        }
+
+/* Section1 */
+
+    .case img{
+        position: relative;
+        display:inline-block;
+        max-width: 1400px;
+        max-height: 550px;
+        width: 100%;
+        height: 100%;
+        padding-right: 10px;
+        
+    }
+    .case_item{
+        color: #fff;
+        padding: 30px;
+        box-sizing: border-box;
+        background-color: rgba(0,0,0,0.6);
+        display: block;
+        width: 50%;
+        position: absolute;
+        z-index: 10;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        outline: 1px solid #000;
+        
+    }
+        .case_item-text1{
+            color:#fdc236;
+            font-size: 25px;
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .case_item-text3{
+            background-color: transparent;
+            border: 1px solid #fdc236;
+            color: #fdc236;
+            padding: 9px 15px;
+            margin-top: 20px;
+            border-radius: 2px;
+            line-height: 23.8px;
+            
+        }
+
+/* section 2 */
+.section2{
+   
+}
+
+/* section 2 */
+.section2{
+    background-color: #f5f6f6;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+    .section2::before{
+        content: "";
+        background-image: url(../asset/img/scale-top.png);
+        position: absolute;
+        background-position: top;
+        background-repeat: repeat-x;
+        top: -4px;
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        opacity: 0.5;
+    }
+        .about_container{
+            text-align: center;
+        }
+
+            .about_container .about_dash-out {
+                display: inline-block ;
+                position: relative;
+                width: 50px;
+                
+            }
+                .about_text1{
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 24px;
+                    color: #1a1a1a;
+                    margin: 0;
+                }
+                .dash_square{
+                    width: 10px; 
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: 10px;
+                    border-width: 3px;
+                    border-style: solid;
+                    background-color: transparent;
+                }
+                
+                .dash_left{
+                    height: 3px;
+                    position: absolute;
+                    top: 50%;
+                    width: 70px;
+                    margin-top: -1px;
+                    background-color: #fdc236;
+                    left: -60px;
+                }
+                .dash_right{
+                    height: 3px;
+                    position: absolute;
+                    top: 50%;
+                    width: 70px;
+                    margin-top: -1px;
+                    background-color: #fdc236;
+                    right: -60px;
+                }
+        .section_about .about_container p{
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 0;
+            padding-top: 10px;
+        }
+
+        
